@@ -22,18 +22,18 @@
 4. Đề xuất của Vân phù hợp với quy ước CleanCode
 5. Hãy lập trình mô hình hoá nghiệp vụ post, delete comment
 Note: Chưa hoàn thành
-Link:
+Link: https://github.com/dotuananh01/BaiTestCuoiKhoa/tree/main/BaiTestCuoiKhoa/Phan1
 
 ## Phần 2: OOP và SOLID
 ### 1. Hãy lập trình Java để thực hiện thiết kế như hình vẽ
 Đã hoàn thành
-Link: 
+Link: https://github.com/dotuananh01/BaiTestCuoiKhoa/tree/main/BaiTestCuoiKhoa/Phan2
 
 ### 2. Composition over Inheritance và DI
 Không làm
 
 ## Phần 3: Thiết kế CSDL Quan hệ theo đặc tả
-Link: 
+Link: https://github.com/dotuananh01/BaiTestCuoiKhoa/tree/main/BaiTestCuoiKhoa/Phan3
 
 ## Phần 4: Thiết kế RESTful API
 Chưa làm
