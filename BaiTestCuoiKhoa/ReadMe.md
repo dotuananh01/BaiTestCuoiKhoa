@@ -21,7 +21,6 @@
    - Chỉ ra cho member thấy việc tuân thủ clean code sẽ nâng tầm giá trị của chính member
 4. Đề xuất của Vân phù hợp với quy ước CleanCode
 5. Hãy lập trình mô hình hoá nghiệp vụ post, delete comment
-Note: Chưa hoàn thành
 Link: https://github.com/dotuananh01/BaiTestCuoiKhoa/tree/main/BaiTestCuoiKhoa/Phan1
 
 ## Phần 2: OOP và SOLID
@@ -36,10 +35,10 @@ Không làm
 Link: https://github.com/dotuananh01/BaiTestCuoiKhoa/tree/main/BaiTestCuoiKhoa/Phan3
 
 ## Phần 4: Thiết kế RESTful API
-Chưa làm
+Link: https://github.com/dotuananh01/BaiTestCuoiKhoa/tree/main/BaiTestCuoiKhoa/Phan4
 
 ## Phần 5: Lập trình Restful API
-Chưa làm
+Link: https://github.com/dotuananh01/BaiTestCuoiKhoa/tree/main/BaiTestCuoiKhoa/Phan5
 
 ## Trắc nghiệm
 1-C
