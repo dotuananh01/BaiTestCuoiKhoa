@@ -64,5 +64,4 @@ public class Post {
     public void deleteComment(Comment comment) {
         comments.remove(comment);
     }
-
 }

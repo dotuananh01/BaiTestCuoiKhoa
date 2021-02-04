@@ -71,40 +71,27 @@ public class User {
         return false;
     }
 
-    public void submitComment(Comment comment) {
-        if (comment == null){
+    public void submitComment(Post post, Comment comment) {
+        if (comment == null || post == null){
             return ;
         }
-        if (isExistPost(comment.getPost())) {
-            comments.add(comment);
-        } else {
-            System.out.println("Post has been deleted!");
-        }
+        post.addComment(comment);
+        comments.add(comment);
     }
 
-    private boolean isExistPost(Post post) {
-        if (post == null){
-            return false;
-        }
-        ArrayList<Post> postsOfUser = this.getPosts();
-        if (postsOfUser.contains(post)) {
-            return true;
-        }
-        return false;
-    }
-
-    public void deleteComment(Comment comment) {
-        if (comment == null){
-            return ;
+    public void deleteComment(Post post, Comment comment) {
+        if (comment == null || post == null){
+            return;
         }
         if (isAuthorOfComment(comment)) {
+            post.deleteComment(comment);
             comments.remove(comment);
         } else {
-            System.out.println("You haven't permission to delete this comment!");
+            System.out.println("You haven't permission to delete this post!");
         }
     }
 
-    private boolean isAuthorOfComment(Comment comment) {
+    private boolean isAuthorOfComment (Comment comment) {
         if (comment == null){
             return false;
         }

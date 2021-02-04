@@ -1,7 +1,5 @@
 package net.luvina;
 
-import java.util.ArrayList;
-
 public class Comment {
     private long id;
     private String title;
@@ -46,5 +44,4 @@ public class Comment {
         this.post = post;
         this.author = author;
     }
-
 }
